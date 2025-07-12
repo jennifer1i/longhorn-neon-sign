@@ -308,6 +308,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1057,6 +1240,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRLZ44N"
 			(pin_names
 				(hide yes)
@@ -1684,6 +2017,54 @@
 		)
 	)
 	(rectangle
+		(start 228.6 19.05)
+		(end 276.86 69.85)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 136d8527-b2df-4c4b-a24e-1e3596e006b2)
+	)
+	(rectangle
+		(start 175.26 19.05)
+		(end 223.52 69.85)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 24ea6f27-5e6b-431f-94a7-c7d2c04edcb7)
+	)
+	(rectangle
+		(start 226.06 74.93)
+		(end 281.94 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39219a83-25ff-4e89-b9c1-d4818f3d9fe9)
+	)
+	(rectangle
+		(start 120.65 19.05)
+		(end 168.91 69.85)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b0f45c9e-37c9-488b-8945-3db5576bf1b3)
+	)
+	(rectangle
 		(start 60.96 13.97)
 		(end 283.21 72.39)
 		(stroke
@@ -1696,8 +2077,20 @@
 		(uuid bf574d9a-dd8b-46d3-9853-49068c95a459)
 	)
 	(rectangle
-		(start 63.5 19.05)
-		(end 111.76 69.85)
+		(start 13.97 74.93)
+		(end 59.69 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f02f463c-b60e-4448-9582-c0cc1254115b)
+	)
+	(rectangle
+		(start 67.31 19.05)
+		(end 115.57 69.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1719,6 +2112,26 @@
 		)
 		(uuid fe21269f-176f-41e0-aa3f-16b4a60abb8b)
 	)
+	(text "BUTTONS\n"
+		(exclude_from_sim no)
+		(at 234.442 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b8f8fd4-febe-42b7-b97b-ee50a2c3cd10")
+	)
+	(text "OUTPUT CONNECTOR"
+		(exclude_from_sim no)
+		(at 237.49 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "380e49ab-87ea-4de5-94b5-539427b6aedc")
+	)
 	(text "INPUT CONNECTOR"
 		(exclude_from_sim no)
 		(at 24.13 16.51 0)
@@ -1729,9 +2142,19 @@
 		)
 		(uuid "485fcf07-c554-4945-9645-8de967db3939")
 	)
-	(text "OUTPUT CONNECTOR"
+	(text "BUCK CONVERTER\n"
 		(exclude_from_sim no)
-		(at 72.39 16.51 0)
+		(at 24.638 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d7428c3-641c-474e-a561-74222c4a68b4")
+	)
+	(text "OUTPUT CONNECTOR (1)"
+		(exclude_from_sim no)
+		(at 78.74 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1739,145 +2162,183 @@
 		)
 		(uuid "5ea6985f-3e3e-451e-ac76-cd8eedac3fa3")
 	)
+	(text "OUTPUT CONNECTOR"
+		(exclude_from_sim no)
+		(at 184.15 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "679d1221-1165-4c0d-9ae6-ee4a417ecd9f")
+	)
+	(text "OUTPUT CONNECTOR (2)"
+		(exclude_from_sim no)
+		(at 130.556 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75f6d195-17c9-4352-965f-a6be5424849e")
+	)
+	(text "DEBUG LEDS"
+		(exclude_from_sim no)
+		(at 24.638 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "771a9047-37e2-4222-822f-821fb422b734")
+	)
 	(junction
-		(at 77.47 53.34)
+		(at 189.23 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07182224-02b4-43d0-ba19-64fe384c0e35")
+	)
+	(junction
+		(at 251.46 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb4f829-c688-41d3-821c-ca16524ac7db")
+	)
+	(junction
+		(at 81.28 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f4ae645-7180-41b6-8f31-c8f63fb8aef8")
 	)
 	(junction
-		(at 36.83 36.83)
+		(at 242.57 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "598c8158-ac7f-4d82-ae6e-97aac3856dd6")
+	)
+	(junction
+		(at 251.46 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a00a6b3-a612-4c2a-8fef-22bf7cc02f15")
+	)
+	(junction
+		(at 34.29 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79fa335d-3035-4885-b345-9f09f8f216dc")
 	)
 	(junction
-		(at 86.36 102.87)
+		(at 251.46 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95dc1167-c6df-4051-af24-90becd3ce068")
+		(uuid "85538439-7d4e-4a89-897d-d6c0cf1f8cc0")
 	)
 	(junction
-		(at 53.34 102.87)
+		(at 134.62 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b114cc65-1169-4c09-bce2-04a93bf1ae84")
+		(uuid "908bca5d-6a3b-4c4d-ad2a-2a8b70687aee")
 	)
 	(junction
-		(at 36.83 39.37)
+		(at 34.29 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f32c634d-b5dc-43f0-87ac-b7a2c8fd2d9b")
 	)
 	(no_connect
-		(at 54.61 143.51)
-		(uuid "00eb46d5-86fe-4cd2-af88-ed4a787794b0")
-	)
-	(no_connect
-		(at 80.01 148.59)
+		(at 128.27 120.65)
 		(uuid "013a0f21-09c3-4dff-aa47-881a1ae31ac8")
 	)
 	(no_connect
-		(at 54.61 135.89)
+		(at 102.87 107.95)
 		(uuid "02bf1880-4783-45fa-be19-247986eca631")
 	)
 	(no_connect
-		(at 64.77 123.19)
+		(at 113.03 95.25)
 		(uuid "0537d5a2-ddfa-4566-b8c8-de61a640524e")
 	)
 	(no_connect
-		(at 80.01 163.83)
+		(at 128.27 135.89)
 		(uuid "0c7a99b4-f242-4396-9197-f1125752fbf2")
 	)
 	(no_connect
-		(at 80.01 158.75)
+		(at 128.27 130.81)
 		(uuid "2edb27a0-afea-4f7d-bdc7-7dfbdfff8dc3")
 	)
 	(no_connect
-		(at 54.61 161.29)
+		(at 102.87 133.35)
 		(uuid "71a81bcb-960a-41f7-99a9-2e35d791765b")
 	)
 	(no_connect
-		(at 80.01 133.35)
+		(at 128.27 105.41)
 		(uuid "76c4079a-f082-423d-a5ae-9590e0c524c4")
 	)
 	(no_connect
-		(at 54.61 133.35)
+		(at 102.87 105.41)
 		(uuid "77db8401-24d6-4ec3-909a-198cf5fb08fd")
 	)
 	(no_connect
-		(at 54.61 163.83)
+		(at 102.87 135.89)
 		(uuid "7fd827dd-907e-4077-9542-20fb7c517bfa")
 	)
 	(no_connect
-		(at 80.01 153.67)
+		(at 128.27 125.73)
 		(uuid "88f379bf-f68b-41b1-854f-863908f7dc66")
 	)
 	(no_connect
-		(at 54.61 153.67)
-		(uuid "94946078-ff28-41ac-90bf-8ae062c31637")
-	)
-	(no_connect
-		(at 54.61 156.21)
+		(at 102.87 128.27)
 		(uuid "9af9c2fa-dfa6-4f6f-94a1-e30e519bb1f3")
 	)
 	(no_connect
-		(at 80.01 143.51)
+		(at 128.27 115.57)
 		(uuid "9c8d512b-b40a-450c-ad3f-ccd45e7ea358")
 	)
 	(no_connect
-		(at 54.61 158.75)
+		(at 102.87 130.81)
 		(uuid "b168bd33-ae15-4006-8520-7503f4b7dccb")
 	)
 	(no_connect
-		(at 69.85 123.19)
+		(at 118.11 95.25)
 		(uuid "b8fbd3a8-c5d3-4029-ab25-3819b6bca53c")
 	)
 	(no_connect
-		(at 54.61 151.13)
-		(uuid "beff7ce1-bc58-4399-9157-52503af66d9e")
-	)
-	(no_connect
-		(at 80.01 156.21)
+		(at 128.27 128.27)
 		(uuid "c1859e8d-820f-4564-9a25-32e5cdbe1bbb")
 	)
 	(no_connect
-		(at 54.61 138.43)
-		(uuid "c1870b9c-eb9a-4d88-bb98-f362d0e5c9b6")
-	)
-	(no_connect
-		(at 54.61 166.37)
+		(at 102.87 138.43)
 		(uuid "d4dae65f-7c1a-4ea4-8854-0e5bc1f838b1")
 	)
 	(no_connect
-		(at 80.01 135.89)
+		(at 128.27 107.95)
 		(uuid "ec1e1ed2-0276-456b-bc4c-8836cbb70e91")
 	)
 	(no_connect
-		(at 80.01 151.13)
+		(at 128.27 123.19)
 		(uuid "ef98df92-cff9-4021-aa41-4c46a448d653")
 	)
 	(no_connect
-		(at 80.01 166.37)
+		(at 128.27 138.43)
 		(uuid "fc158688-b9e0-4a1e-a77a-182703ba3bfd")
 	)
 	(no_connect
-		(at 80.01 161.29)
+		(at 128.27 133.35)
 		(uuid "fca7e450-4b86-4068-9bf8-74a38d189cca")
 	)
 	(wire
 		(pts
-			(xy 53.34 113.03) (xy 53.34 146.05)
+			(xy 134.62 53.34) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06aab9a5-531c-4016-85ab-580585a4099a")
+		(uuid "00a95589-061a-4688-ba8f-3295c4f4d9e2")
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83) (xy 36.83 36.83)
+			(xy 27.94 27.94) (xy 34.29 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +2348,37 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 60.96) (xy 97.79 58.42)
+			(xy 251.46 85.09) (xy 251.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073a0206-d3a8-4716-9069-706047deaaac")
+	)
+	(wire
+		(pts
+			(xy 247.65 85.09) (xy 251.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dccc312-717d-44e9-98db-17bff858fa59")
+	)
+	(wire
+		(pts
+			(xy 22.86 100.33) (xy 22.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4df5a5-20e2-483c-a6b5-330fafb4027c")
+	)
+	(wire
+		(pts
+			(xy 101.6 60.96) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +2388,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 53.34) (xy 80.01 53.34)
+			(xy 209.55 29.21) (xy 209.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11215cb8-b1d3-4eff-a89f-fed274da4d59")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 83.82 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 29.21) (xy 97.79 35.56)
+			(xy 101.6 29.21) (xy 101.6 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1917,37 +2418,77 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 86.36 102.87)
+			(xy 251.46 107.95) (xy 262.89 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20c71658-5519-4b38-89d5-a391eb53cdb7")
+		(uuid "1d395d8d-4778-4ede-b21c-e316b5a15693")
 	)
 	(wire
 		(pts
-			(xy 55.88 102.87) (xy 53.34 102.87)
+			(xy 144.78 53.34) (xy 147.32 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2431d523-4a93-444d-a8e4-d3908dd425fc")
+		(uuid "1d8f16b1-702e-45a5-9280-169bf2aa5fd7")
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 43.18 105.41)
+			(xy 251.46 107.95) (xy 247.65 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d8dda26-ad7a-4f1e-90a7-f1c357beab36")
+		(uuid "20064a62-3301-4b62-8ba9-f22cd1bc91a7")
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 49.53 39.37)
+			(xy 262.89 38.1) (xy 262.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24153345-9734-4bdb-95bd-dceeee232bfe")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.19) (xy 102.87 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b03e3b3-85f6-44ff-8327-bd9577d82e3a")
+	)
+	(wire
+		(pts
+			(xy 100.33 110.49) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba424a1-16ab-4278-8900-0aa90cc9e637")
+	)
+	(wire
+		(pts
+			(xy 154.94 38.1) (xy 154.94 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7a7183-b787-43dd-9523-56b5a3f2ac3d")
+	)
+	(wire
+		(pts
+			(xy 34.29 30.48) (xy 46.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +2498,27 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 146.05) (xy 54.61 146.05)
+			(xy 154.94 60.96) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35201ef0-588b-48d0-b0af-64f2a3200780")
+	)
+	(wire
+		(pts
+			(xy 251.46 85.09) (xy 262.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b0266f-5d53-4b21-b04b-a5880eed667f")
+	)
+	(wire
+		(pts
+			(xy 100.33 118.11) (xy 102.87 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +2528,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 36.83) (xy 49.53 36.83)
+			(xy 134.62 53.34) (xy 137.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a370747-df9b-4ba1-8623-f5a5c0778f25")
+	)
+	(wire
+		(pts
+			(xy 34.29 27.94) (xy 46.99 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1977,37 +2548,47 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 100.33 91.44)
+			(xy 209.55 35.56) (xy 205.74 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47a130ba-8a35-4a15-b0dc-d0c4fa28fafd")
+		(uuid "402d0fce-a519-40f5-a36f-a3b758b5fca5")
 	)
 	(wire
 		(pts
-			(xy 67.31 91.44) (xy 63.5 91.44)
+			(xy 209.55 38.1) (xy 205.74 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b6d6174-06da-4166-87d3-162bec700812")
+		(uuid "42f46665-913c-457e-882b-21670416809d")
 	)
 	(wire
 		(pts
-			(xy 63.5 93.98) (xy 63.5 97.79)
+			(xy 189.23 53.34) (xy 191.77 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "578c8338-9538-4e8d-8036-42e88e38dc08")
+		(uuid "4a3aea72-7181-47a7-a808-5ee0041c08e9")
 	)
 	(wire
 		(pts
-			(xy 97.79 35.56) (xy 93.98 35.56)
+			(xy 177.8 53.34) (xy 189.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b86f03d-b81e-4765-8a51-2d3cb1c62710")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 97.79 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2017,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 173.99) (xy 69.85 175.26)
+			(xy 118.11 146.05) (xy 118.11 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 53.34) (xy 77.47 55.88)
+			(xy 81.28 53.34) (xy 81.28 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2037,47 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 102.87) (xy 53.34 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ccc7db-4059-40af-8c50-855f7f633158")
-	)
-	(wire
-		(pts
-			(xy 86.36 105.41) (xy 86.36 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e993ccb-4ee7-4cc9-8a4c-582f67f17d67")
-	)
-	(wire
-		(pts
-			(xy 76.2 105.41) (xy 76.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "634a71f1-ac8c-4877-b168-49aabe014144")
-	)
-	(wire
-		(pts
-			(xy 100.33 85.09) (xy 100.33 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "657ba352-4991-4fa5-ad2d-332e1d834a76")
-	)
-	(wire
-		(pts
-			(xy 97.79 38.1) (xy 97.79 48.26)
+			(xy 101.6 38.1) (xy 101.6 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2087,27 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 180.34) (xy 52.07 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7030b6ef-fdf2-41e7-b997-c7a29a9d5b0a")
-	)
-	(wire
-		(pts
-			(xy 53.34 102.87) (xy 53.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72d9a9fe-f70b-45bd-b6ec-6eef0ec25c33")
-	)
-	(wire
-		(pts
-			(xy 66.04 53.34) (xy 77.47 53.34)
+			(xy 69.85 53.34) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2638,47 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 38.1) (xy 93.98 38.1)
+			(xy 252.73 53.34) (xy 255.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771c9a77-fd32-4a35-b655-c3b35dff465a")
+	)
+	(wire
+		(pts
+			(xy 29.21 54.61) (xy 44.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e84f00a-3a33-4999-8d02-25cf9f8ffc8e")
+	)
+	(wire
+		(pts
+			(xy 154.94 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcc3157-7bf0-4cd3-86ad-d3c8044c7a41")
+	)
+	(wire
+		(pts
+			(xy 242.57 53.34) (xy 245.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80abfd56-32de-4f63-ac0b-876cda701a89")
+	)
+	(wire
+		(pts
+			(xy 101.6 38.1) (xy 97.79 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2688,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 148.59) (xy 54.61 148.59)
+			(xy 123.19 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92727f4e-07a0-4e45-bee8-8c0f2febed33")
+	)
+	(wire
+		(pts
+			(xy 100.33 115.57) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c78ab0-d283-4040-92dd-530fff80ad7e")
+	)
+	(wire
+		(pts
+			(xy 100.33 120.65) (xy 102.87 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2137,37 +2718,107 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 85.09) (xy 67.31 91.44)
+			(xy 262.89 29.21) (xy 262.89 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a722ea6-8fe7-4d4e-b2e3-abb23b29398b")
+		(uuid "98418acf-7ed0-473a-8779-f8d288a0ea4d")
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 96.52 97.79)
+			(xy 29.21 62.23) (xy 44.45 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ade54476-b3b2-40f4-968c-29c138b16e65")
+		(uuid "ae20980e-7813-4ae2-99df-5ed91eddc3ac")
 	)
 	(wire
 		(pts
-			(xy 86.36 180.34) (xy 52.07 180.34)
+			(xy 262.89 35.56) (xy 259.08 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7e837f6-a111-443a-a621-a82f889dd75a")
+		(uuid "b4137f1e-1a61-4aab-9b7a-cd8f18e5ff77")
 	)
 	(wire
 		(pts
-			(xy 87.63 53.34) (xy 90.17 53.34)
+			(xy 29.21 64.77) (xy 44.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f255b0-cb64-4d94-9b1b-95767c802ebf")
+	)
+	(wire
+		(pts
+			(xy 209.55 38.1) (xy 209.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7510286-19b5-424c-9c2a-f0d663bf569a")
+	)
+	(wire
+		(pts
+			(xy 251.46 130.81) (xy 251.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89f1868-9217-4f05-89a9-2af577f30968")
+	)
+	(wire
+		(pts
+			(xy 100.33 125.73) (xy 102.87 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ebb25a-f274-4b14-8cdf-673584a0f871")
+	)
+	(wire
+		(pts
+			(xy 154.94 29.21) (xy 154.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b948f0bf-c4f1-4c93-bb13-d94c95652471")
+	)
+	(wire
+		(pts
+			(xy 247.65 130.81) (xy 251.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4a279c-4a3b-49ab-9fdb-eb59f6f2ce12")
+	)
+	(wire
+		(pts
+			(xy 251.46 107.95) (xy 251.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01a88b1-0f70-4c33-b8b0-5bf25fc13e3d")
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 93.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2828,67 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 173.99) (xy 67.31 175.26)
+			(xy 251.46 130.81) (xy 262.89 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51f1063-43dc-4eb3-8016-9c75b8f9000b")
+	)
+	(wire
+		(pts
+			(xy 242.57 53.34) (xy 242.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5efd798-5f61-4ee6-bb6f-cf3b7baa3da6")
+	)
+	(wire
+		(pts
+			(xy 209.55 60.96) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fd85e6-4adf-427c-ba5b-4b5d0a8d7ad1")
+	)
+	(wire
+		(pts
+			(xy 231.14 53.34) (xy 242.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62ce2d8-352e-4eca-8720-0ab7c703653a")
+	)
+	(wire
+		(pts
+			(xy 262.89 38.1) (xy 259.08 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3e4ee2-4521-4fe7-9f5c-707ea7581693")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0476b5a-44ed-4d49-beac-949f56cf87d8")
+	)
+	(wire
+		(pts
+			(xy 115.57 146.05) (xy 115.57 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2187,17 +2898,47 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 102.87) (xy 88.9 102.87)
+			(xy 29.21 52.07) (xy 44.45 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7f39322-3dd8-4545-a446-3c401ed65c38")
+		(uuid "d6e8556e-a12e-46db-bd86-9bbcf5fdc69a")
 	)
 	(wire
 		(pts
-			(xy 40.64 140.97) (xy 54.61 140.97)
+			(xy 199.39 53.34) (xy 201.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2a4624-5aa1-409c-bfe6-86e454c8392e")
+	)
+	(wire
+		(pts
+			(xy 262.89 60.96) (xy 262.89 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dedd2ab2-0ea3-4468-8bbf-5ea7a249f385")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacf1253-8a33-43c9-a573-6bdf1fb84b18")
+	)
+	(wire
+		(pts
+			(xy 100.33 113.03) (xy 102.87 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2207,17 +2948,27 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 113.03) (xy 86.36 180.34)
+			(xy 154.94 35.56) (xy 151.13 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f90c94cd-c344-46c6-9838-c9ac640390e2")
+		(uuid "f1e09c48-4d90-4454-95ad-feaa5f0d2eb1")
 	)
 	(wire
 		(pts
-			(xy 30.48 39.37) (xy 36.83 39.37)
+			(xy 189.23 53.34) (xy 189.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4993a8d-c5d5-4c24-b54b-2e88cd870eae")
+	)
+	(wire
+		(pts
+			(xy 27.94 30.48) (xy 34.29 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2225,18 +2976,78 @@
 		)
 		(uuid "ffedd4dc-1a1c-49c3-87cb-bdcfc90c3d2e")
 	)
-	(label "PWM_OUT3"
-		(at 86.36 125.73 90)
+	(label "BTN_TOGGLE"
+		(at 262.89 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "749e2929-a1df-4880-95df-02e84804e1c1")
+		(uuid "0053d25c-6095-45dc-baba-03c7465dc090")
 	)
 	(label "PWM_OUT2"
-		(at 53.34 119.38 270)
+		(at 123.19 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "098334b5-8dcb-43d9-93ce-0df4b94adf04")
+	)
+	(label "+5V"
+		(at 44.45 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25c2fb27-48fa-40e4-9ead-a12fb5b21013")
+	)
+	(label "BTN_DOWN"
+		(at 262.89 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2979966a-2c85-42df-bee5-639f5ac7184c")
+	)
+	(label "BTN_UP"
+		(at 262.89 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35331083-cfe8-4722-a70f-0d48e66900d6")
+	)
+	(label "PWM_OUT3"
+		(at 100.33 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "749e2929-a1df-4880-95df-02e84804e1c1")
+	)
+	(label "BTN_TOGGLE"
+		(at 100.33 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75e3c09f-71bd-4e25-bfb1-cb63661d51a1")
+	)
+	(label "PWM_OUT2"
+		(at 100.33 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2246,7 +3057,7 @@
 		(uuid "7d96186f-c896-4cea-94a0-586619e6f402")
 	)
 	(label "PWM_OUT1"
-		(at 66.04 53.34 0)
+		(at 69.85 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,19 +3066,109 @@
 		)
 		(uuid "8a54acb8-a913-4504-9fa9-15842665bd73")
 	)
+	(label "+5V"
+		(at 251.46 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92107641-341c-40bf-bea4-3811952dc4a8")
+	)
+	(label "BTN_UP"
+		(at 100.33 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8d753d6-6ac5-4f18-81ad-dc0ff67f1b4b")
+	)
+	(label "BTN_DOWN"
+		(at 100.33 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abf30d56-8e4e-40cf-ab6c-5f42497ca81f")
+	)
+	(label "+5V"
+		(at 22.86 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8999ea4-6f6a-48e6-a6a5-3654acf1472f")
+	)
+	(label "+5V"
+		(at 251.46 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c00792ed-23d1-423b-9ab9-27fdeed33a8a")
+	)
+	(label "+5V"
+		(at 251.46 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4d53144-4948-4a9d-affe-41173b86b0ae")
+	)
 	(label "PWM_OUT1"
-		(at 40.64 140.97 0)
+		(at 100.33 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8881f8b-9650-495e-af52-45cbb7d2869a")
+	)
+	(label "PWM_OUT4"
+		(at 231.14 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c8881f8b-9650-495e-af52-45cbb7d2869a")
+		(uuid "ce64f791-dc3b-4294-8085-d7dad0280a74")
+	)
+	(label "PWM_OUT4"
+		(at 100.33 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f07055e8-f781-4716-8bad-851d13d780cd")
+	)
+	(label "PWM_OUT3"
+		(at 177.8 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f40ec06d-74ef-457d-af03-571a50ec7b23")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 175.26 0)
+		(at 115.57 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2276,7 +3177,7 @@
 		(fields_autoplaced yes)
 		(uuid "053158d5-9ce4-42e2-a19e-0c9cee70c1a6")
 		(property "Reference" "#PWR03"
-			(at 67.31 181.61 0)
+			(at 115.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +3186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 180.34 0)
+			(at 115.57 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +3195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 175.26 0)
+			(at 115.57 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 175.26 0)
+			(at 115.57 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +3213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 175.26 0)
+			(at 115.57 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,8 +3234,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 251.46 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "093b8e23-a479-4992-9474-f52f2dc62c83")
+		(property "Reference" "#PWR027"
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d6433b1-a094-4c6a-b773-fd327cc22571")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 36.83 39.37 180)
+		(at 34.29 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2343,7 +3310,7 @@
 		(fields_autoplaced yes)
 		(uuid "09a562ce-e1d4-4758-86e6-01b83b137908")
 		(property "Reference" "#FLG02"
-			(at 36.83 41.275 0)
+			(at 34.29 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +3319,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 36.83 44.45 0)
+			(at 34.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +3327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +3336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +3345,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 36.83 39.37 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,8 +3366,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 26.67 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d92ce02-1b26-45ee-acd4-0e26c72a9309")
+		(property "Reference" "R2"
+			(at 26.67 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 26.67 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+			(at 26.67 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3798977-5535-420c-8812-2a64c605c412")
+		)
+		(pin "2"
+			(uuid "eb774860-84e8-4c64-9c70-791351d220a3")
+		)
+		(instances
+			(project ""
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 97.79 60.96 0)
+		(at 101.6 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2409,7 +3444,7 @@
 		(fields_autoplaced yes)
 		(uuid "13a880d1-77e0-4ee7-aa15-33acde2ad35b")
 		(property "Reference" "#PWR07"
-			(at 97.79 67.31 0)
+			(at 101.6 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +3453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +3462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 60.96 0)
+			(at 101.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +3471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 60.96 0)
+			(at 101.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +3480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 60.96 0)
+			(at 101.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,17 +3501,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 107.95 0)
+		(lib_id "power:+12V")
+		(at 262.89 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1e4e537f-dc72-41a2-badf-0dacb26667d7")
-		(property "Reference" "#PWR09"
-			(at 63.5 114.3 0)
+		(uuid "18bb1c19-196a-481e-9a4f-1d4370629f03")
+		(property "Reference" "#PWR022"
+			(at 262.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,17 +3519,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 63.5 113.03 0)
+		(property "Value" "+12V"
+			(at 262.89 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 107.95 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +3537,214 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 107.95 0)
+			(at 262.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 262.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc42eba9-3f6c-41b4-96ec-49aed6330f4d")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 251.46 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cc4673b-1858-4689-a5b1-3df1a8659b10")
+		(property "Reference" "SW1"
+			(at 252.73 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 252.73 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 246.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 251.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc1a5023-a78d-462f-bcb6-d7d41ed600cc")
+		)
+		(pin "2"
+			(uuid "1efa071a-523d-4a3b-a631-3e9b4204934c")
+		)
+		(instances
+			(project ""
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 251.46 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce56989-1796-48af-9328-9fe9a6f36fb9")
+		(property "Reference" "SW2"
+			(at 252.73 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 252.73 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "691d81f3-664f-4cb8-ad85-9a13fe278593")
+		)
+		(pin "2"
+			(uuid "80d53239-dfcc-4327-a022-bc496e13b8c1")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20596118-5961-4b65-a649-642600b1e056")
+		(property "Reference" "#PWR018"
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +3753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 107.95 0)
+			(at 189.23 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,68 +3762,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "33465336-e11a-4164-91c6-7f872f03fdf9")
+			(uuid "96412d5f-a282-41ac-9a37-8ae8747057a7")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "#PWR09")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 60.96 102.87 0)
+		(lib_id "power:GND")
+		(at 154.94 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1fac4658-6286-4621-bc31-1e0cb36f7401")
-		(property "Reference" "Q2"
-			(at 67.31 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 67.31 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 66.04 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 60.96 102.87 0)
+		(uuid "224fc775-1f2b-49a4-905a-3ac1adbf8bc2")
+		(property "Reference" "#PWR017"
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,19 +3792,49 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "6827898e-79a2-4856-84d1-483e26a51d6b")
+		(property "Value" "GND"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "29e39bce-6e79-4bb9-848d-b7f225398100")
+		(property "Footprint" ""
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "6867e222-377f-4327-bd01-a9fb99e73b8e")
+			(uuid "7e8dc80a-e71c-4a3b-8bf4-1dc3186f1ed3")
 		)
 		(instances
-			(project ""
+			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "Q2")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2610,16 +3842,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 58.42 91.44 0)
+		(at 254 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e73c65b-19ec-4da1-a316-6fa0d53d61c5")
-		(property "Reference" "LED_OUT2"
-			(at 59.055 86.36 0)
+		(uuid "26fab9b7-2c95-41e6-b59f-000e35824c4b")
+		(property "Reference" "LED_OUT4"
+			(at 254.635 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +3859,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 59.055 88.9 0)
+			(at 254.635 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +3867,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 58.42 91.44 0)
+			(at 254 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +3876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 91.44 0)
+			(at 254 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +3885,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 58.42 91.44 0)
+			(at 254 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,15 +3894,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fd99dce-7b7e-482e-bcf9-c93b7e03cca2")
+			(uuid "610dfe35-08f8-4e91-be53-2b8710d61f97")
 		)
 		(pin "1"
-			(uuid "163914b3-fb32-40b6-9826-066ad604a64f")
+			(uuid "6198ae37-ba9e-4ead-ba21-bed6400071ee")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "LED_OUT2")
+					(reference "LED_OUT4")
 					(unit 1)
 				)
 			)
@@ -2678,16 +3910,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 25.4 36.83 0)
+		(at 200.66 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "339519e9-b3e2-4081-b8f6-3740f2e8e7f6")
-		(property "Reference" "BUCK_OUT1"
-			(at 26.035 31.75 0)
+		(uuid "2aaee535-d26a-4b6d-99da-c625b6ee533d")
+		(property "Reference" "LED_OUT3"
+			(at 201.295 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,15 +3927,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 26.035 34.29 0)
+			(at 201.295 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 25.4 36.83 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 200.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +3944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 36.83 0)
+			(at 200.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +3953,210 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 25.4 36.83 0)
+			(at 200.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68626e64-ca4c-487d-afb0-47a780d01f46")
+		)
+		(pin "1"
+			(uuid "b6de3f7b-05c4-4bbf-b271-02a749d1ef15")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "LED_OUT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d776983-6bde-4fce-b77d-0fa29f398452")
+		(property "Reference" "#PWR020"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49ea15cc-526f-4938-a439-3a3f77304ea2")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f511ebe-c2d4-4046-b351-b9e77a01110e")
+		(property "Reference" "R_G3"
+			(at 195.58 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 195.58 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 195.58 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2705b226-3b3f-40a0-8c64-7f5d35874adf")
+		)
+		(pin "2"
+			(uuid "f0d58cea-8bd2-4d45-b77a-48589e8cdd31")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "R_G3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 22.86 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339519e9-b3e2-4081-b8f6-3740f2e8e7f6")
+		(property "Reference" "PWR_IN1"
+			(at 23.495 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 23.495 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 22.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +4173,7 @@
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "BUCK_OUT1")
+					(reference "PWR_IN1")
 					(unit 1)
 				)
 			)
@@ -2746,7 +4181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 175.26 0)
+		(at 118.11 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2755,7 +4190,7 @@
 		(fields_autoplaced yes)
 		(uuid "3500405c-e1a7-4f94-b77f-048a3d84c7b6")
 		(property "Reference" "#PWR04"
-			(at 69.85 181.61 0)
+			(at 118.11 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +4199,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 180.34 0)
+			(at 118.11 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +4208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 175.26 0)
+			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +4217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 175.26 0)
+			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +4226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 175.26 0)
+			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,16 +4248,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 113.03 0)
+		(at 240.03 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54232a78-9a08-4aa3-9e5f-90951a0e552b")
-		(property "Reference" "#PWR08"
-			(at 43.18 119.38 0)
+		(uuid "3d244670-0aff-4783-90b3-1a99c8eff175")
+		(property "Reference" "#PWR011"
+			(at 233.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +4265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 118.11 0)
+			(at 234.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +4274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 113.03 0)
+			(at 240.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +4283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 113.03 0)
+			(at 240.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +4292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 113.03 0)
+			(at 240.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,12 +4301,144 @@
 			)
 		)
 		(pin "1"
-			(uuid "be8be83b-075f-4037-8f27-226fb229b64d")
+			(uuid "489dc95f-8b2e-45cc-8597-7b49d6a86a7c")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "#PWR08")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 209.55 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "402d7dd3-77b8-49e1-b628-81e589c1ecef")
+		(property "Reference" "#PWR019"
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 209.55 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1a50ebc-6eaf-4229-a4f9-0091f73bbbb2")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45d02043-950d-45ba-9ec5-0784643e1803")
+		(property "Reference" "#PWR029"
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06fea225-95dd-4390-b5c8-e8c3d50ddbe5")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2880,16 +4446,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 109.22 0)
+		(at 242.57 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57e5cc11-8644-4ee6-bf26-413f224a33cf")
-		(property "Reference" "R_G3"
-			(at 88.9 107.9499 0)
+		(uuid "48bb6481-af6e-4d18-9b67-729887d2eb24")
+		(property "Reference" "R_PD7"
+			(at 245.11 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,8 +4462,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 88.9 110.4899 0)
+		(property "Value" "10kΩ"
+			(at 245.11 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +4472,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 84.582 109.22 90)
+			(at 240.792 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +4481,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 109.22 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +4490,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 109.22 0)
+			(at 242.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,15 +4499,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3ce4d0c-2fcf-4fb5-84c6-34afd90b753e")
+			(uuid "4d370fac-e2dc-46c7-ab16-3212c327e226")
 		)
 		(pin "2"
-			(uuid "a562b719-d167-48ba-ae25-8f341d4325f3")
+			(uuid "db77ee7f-bd0f-4f44-91e7-addbe851ff09")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "R_G3")
+					(reference "R_PD7")
 					(unit 1)
 				)
 			)
@@ -2950,16 +4515,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 39.37 0)
+		(at 38.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57ed6b14-d131-4d43-bbdb-841fb390850d")
-		(property "Reference" "#PWR05"
-			(at 49.53 45.72 0)
+		(uuid "56df5b37-0e1c-4130-bb56-ff36a0014f90")
+		(property "Reference" "#PWR026"
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +4533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 44.45 0)
+			(at 38.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +4542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 39.37 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +4551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 39.37 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +4560,141 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 39.37 0)
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c64363c-820f-404d-9e0a-ffcc61832c06")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "572cc4f0-eac8-4483-bff1-9ac4e3489225")
+		(property "Reference" "#PWR021"
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7b4b728-0b0d-4902-a9c0-cb6edaac150f")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ed6b14-d131-4d43-bbdb-841fb390850d")
+		(property "Reference" "#PWR05"
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,16 +4716,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 92.71 125.73 0)
+		(at 128.27 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b56262c-bf1f-4e22-9416-9cabf41082fb")
 		(property "Reference" "C1"
-			(at 95.25 124.4662 0)
+			(at 130.81 95.2562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +4733,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 95.25 127.0062 0)
+			(at 130.81 97.7962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +4742,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 92.71 125.73 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +4751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 125.73 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +4760,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 125.73 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,82 +4784,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 67.31 85.09 0)
+		(lib_id "Device:C_Small")
+		(at 251.46 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62382dbf-bf71-4c03-a024-ff09cbfa059e")
-		(property "Reference" "#PWR013"
-			(at 67.31 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 67.31 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 67.31 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74daebd2-a18c-4beb-97cf-a901a0afe8d7")
-		)
-		(instances
-			(project "LongHornNeonSign"
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 53.34 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8eafb0af-73f8-4f4f-9f05-9787217c4a89")
-		(property "Reference" "R_G2"
-			(at 55.88 107.9499 0)
+		(uuid "655d9db3-422a-4fa3-8a92-0f79b9d01c54")
+		(property "Reference" "C_DEBOUNCE1"
+			(at 254.762 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,8 +4801,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 55.88 110.4899 0)
+		(property "Value" "0.1uF"
+			(at 254 83.8262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,8 +4810,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 51.562 109.22 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 251.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +4820,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 109.22 0)
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa8d940f-f00a-4523-91b8-dd6bb896f0b9")
+		)
+		(pin "2"
+			(uuid "03b40bfa-0b7d-4d34-b51e-3d18c0e46ccd")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "C_DEBOUNCE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65f31b43-2e92-4c99-804c-7563028f8f9c")
+		(property "Reference" "R1"
+			(at 26.67 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 26.67 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+			(at 26.67 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +4897,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 109.22 0)
+			(at 26.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,48 +4906,49 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcddfe2e-40e9-435e-8fe1-4b9145f72dbb")
+			(uuid "08068df8-6fea-4c89-8d63-3f3ccb74eb5d")
 		)
 		(pin "2"
-			(uuid "1c72c789-3934-407e-9254-23afafa0433e")
+			(uuid "23cc6a34-5290-4d6e-87bf-880947b79a87")
 		)
 		(instances
-			(project "LongHornNeonSign"
+			(project ""
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "R_G2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 91.44 91.44 0)
+		(lib_id "Device:R")
+		(at 134.62 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90667965-dd6e-4afa-a756-31382356f839")
-		(property "Reference" "LED_OUT3"
-			(at 92.075 86.36 0)
+		(uuid "69d36677-805f-4d7b-8f07-f29dcb8b65a7")
+		(property "Reference" "R_PD2"
+			(at 137.16 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 92.075 88.9 0)
+		(property "Value" "10kΩ"
+			(at 137.16 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 91.44 91.44 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 132.842 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +4957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 91.44 0)
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,41 +4965,108 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 91.44 91.44 0)
+		(property "Description" "Resistor"
+			(at 134.62 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "e501eac5-3f76-403d-8f54-bebf7177138a")
 		)
 		(pin "1"
-			(uuid "2263d396-c233-467d-92b9-75d5d728ca97")
+			(uuid "c0d301f6-1e8b-41dc-bd8a-5c7aa99b35c6")
+		)
+		(pin "2"
+			(uuid "bf110920-cc65-4c79-b9b9-4e865064ff2e")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "LED_OUT3")
+					(reference "R_PD2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "MCU_Module:Arduino_Nano_v3.x")
-		(at 67.31 148.59 0)
+		(lib_id "power:GND")
+		(at 38.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "91f2c599-fd55-41a5-bf12-2ca4b1d7ebb3")
-		(property "Reference" "A1"
-			(at 66.04 116.84 0)
+		(fields_autoplaced yes)
+		(uuid "6a235b79-7a7e-4f3d-8852-391ebf079601")
+		(property "Reference" "#PWR025"
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90696252-af02-4452-8e3e-5f109e9a56dd")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a7a89ee-6911-4019-83c8-c5b63c09fb06")
+		(property "Reference" "R_PD6"
+			(at 245.1101 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,8 +5074,348 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Metro Mini 328 Stand in"
-			(at 55.88 119.38 0)
+		(property "Value" "10kΩ"
+			(at 242.5701 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 243.84 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "985fe83b-f2df-4024-b4c4-655eb0a12892")
+		)
+		(pin "2"
+			(uuid "b4dd73f4-3f7c-4bd0-8725-60692e540b90")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "R_PD6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8679354e-15ac-4f8e-993d-7225ca52564d")
+		(property "Reference" "R_PD4"
+			(at 245.1101 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 242.5701 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 243.84 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44323cbf-a037-41d8-be08-310914482367")
+		)
+		(pin "2"
+			(uuid "70147a08-01e1-4943-a9c2-a56ded3377f4")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "R_PD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bd8f4b0-36c3-46c8-b6b1-5386f7187c2e")
+		(property "Reference" "R_PD5"
+			(at 245.1101 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 242.5701 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 243.84 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af148418-4a4b-4f97-8b04-b364f21a3237")
+		)
+		(pin "2"
+			(uuid "7c90d0f4-2cd7-4c46-b9fb-365f0a32fb1c")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "R_PD5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 154.94 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e99b51b-f910-4b00-831d-84b6ad03b182")
+		(property "Reference" "#PWR016"
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 154.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 154.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54123ffd-3123-4ae3-a548-c9c38c5b1571")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fd0ce68-b2eb-42f5-9bb7-94e3620ddbad")
+		(property "Reference" "#PWR014"
+			(at 233.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90a20f4a-4f62-4932-8ac2-64c9ca058c0b")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:Arduino_Nano_v3.x")
+		(at 115.57 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91f2c599-fd55-41a5-bf12-2ca4b1d7ebb3")
+		(property "Reference" "A1"
+			(at 115.062 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Arduino Nano"
+			(at 108.966 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +5424,7 @@
 			)
 		)
 		(property "Footprint" "Module:Arduino_Nano"
-			(at 67.31 148.59 0)
+			(at 115.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +5434,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
-			(at 67.31 148.59 0)
+			(at 115.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +5443,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano v3.x"
-			(at 67.31 148.59 0)
+			(at 115.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,8 +5551,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 248.92 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93df6e74-a381-49cb-b538-49e6fe97ab37")
+		(property "Reference" "R_G4"
+			(at 248.92 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 248.92 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 248.92 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dd144ed-4c59-47e7-93b5-7081d9883526")
+		)
+		(pin "2"
+			(uuid "ccbbc838-c081-4056-a6ec-47b2c1866f20")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "R_G4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
-		(at 95.25 53.34 0)
+		(at 99.06 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3453,7 +5629,7 @@
 		(fields_autoplaced yes)
 		(uuid "969578bd-5d09-4221-9743-9f0c12249bf0")
 		(property "Reference" "Q1"
-			(at 101.6 52.0699 0)
+			(at 105.41 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +5638,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 101.6 54.6099 0)
+			(at 105.41 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +5647,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 100.33 55.245 0)
+			(at 104.14 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +5658,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 100.33 57.15 0)
+			(at 104.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +5668,7 @@
 			)
 		)
 		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 95.25 53.34 0)
+			(at 99.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,86 +5695,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 76.2 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9efc3de7-7343-44a1-a4ba-493c8c0848b3")
-		(property "Reference" "R_PD3"
-			(at 78.74 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 78.74 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 74.422 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b8be9a8-b280-4967-b1b6-801e1e4f343b")
-		)
-		(pin "2"
-			(uuid "1b34386d-c99f-4912-8b87-edc5991a645f")
-		)
-		(instances
-			(project "LongHornNeonSign"
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "R_PD3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 113.03 0)
+		(lib_id "power:+12V")
+		(at 22.86 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a61e3faa-3559-4a40-8733-938b87ca66f7")
-		(property "Reference" "#PWR010"
-			(at 76.2 119.38 0)
+		(uuid "99df9ac8-a927-41db-a815-39fc2aa3c684")
+		(property "Reference" "#PWR024"
+			(at 22.86 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,17 +5713,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 76.2 118.11 0)
+		(property "Value" "+12V"
+			(at 22.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 113.03 0)
+			(at 22.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +5731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 113.03 0)
+			(at 22.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,8 +5739,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 22.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +5749,151 @@
 			)
 		)
 		(pin "1"
-			(uuid "79866d0c-14dd-4710-98af-6b55c17fd836")
+			(uuid "69139abc-f410-4929-aeca-beb65864fe6f")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 34.29 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0c3d1e-3354-418a-bade-e13a0c6591b8")
+		(property "Reference" "LED_12V1"
+			(at 32.7025 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 32.7025 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa99c5f0-e25e-4bb8-8b69-b0cf95b08caa")
+		)
+		(pin "2"
+			(uuid "6aae7ca9-334c-41ea-b232-eac3ed7cf492")
+		)
+		(instances
+			(project ""
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "LED_12V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a530320-9659-4254-b46a-42fb2c131f91")
+		(property "Reference" "#PWR010"
+			(at 44.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1e4c3e4-929f-4477-bfb5-407cc024fddb")
 		)
 		(instances
 			(project "LongHornNeonSign"
@@ -3655,34 +5905,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 43.18 109.22 180)
+		(lib_id "Device:C_Small")
+		(at 251.46 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b066ec3d-009b-4154-b48e-9a5a487b178b")
-		(property "Reference" "R_PD2"
-			(at 45.72 107.9499 0)
+		(uuid "9fc34093-8c58-4542-8b90-e72103ad05cb")
+		(property "Reference" "C_DEBOUNCE2"
+			(at 254.762 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 45.72 110.4899 0)
+		(property "Value" "0.1uF"
+			(at 254 106.6862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 44.958 109.22 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 251.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +5941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 109.22 0)
+			(at 251.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,8 +5949,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 43.18 109.22 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,32 +5959,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "80ffd27e-1176-402e-b2a5-25f1100b66d0")
+			(uuid "d309cca1-9c4a-45c1-bde0-8fbedc58d061")
 		)
 		(pin "2"
-			(uuid "68c0c64c-82d5-425e-b53e-cf0864d99ded")
+			(uuid "44041fb7-89cd-48c8-9e74-9195f6eaf700")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "R_PD2")
+					(reference "C_DEBOUNCE2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 107.95 0)
+		(lib_id "Switch:SW_Push")
+		(at 251.46 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b66afe7a-7cf1-4418-ba50-9ce4836b83f9")
-		(property "Reference" "#PWR011"
-			(at 96.52 114.3 0)
+		(uuid "aa3ce1e1-ee23-47c1-b94f-e2a566c19f60")
+		(property "Reference" "SW3"
+			(at 252.73 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 252.73 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 246.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,8 +6010,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 96.52 113.03 0)
+		(property "Datasheet" "~"
+			(at 246.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,26 +6019,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 96.52 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 107.95 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 251.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,12 +6029,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "83ae0be7-655d-4351-84a8-aa4d461d2d55")
+			(uuid "459224b7-d20f-4deb-80fe-7a5ec8aafd33")
+		)
+		(pin "2"
+			(uuid "143c822f-c085-4055-8c00-1f034dadfde7")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "#PWR011")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -3792,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 97.79 29.21 0)
+		(at 101.6 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3801,7 +6054,7 @@
 		(fields_autoplaced yes)
 		(uuid "b705c4a0-ed3b-42f2-97d0-3ded6107b5d6")
 		(property "Reference" "#PWR02"
-			(at 97.79 33.02 0)
+			(at 101.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +6063,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 97.79 24.13 0)
+			(at 101.6 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +6071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 29.21 0)
+			(at 101.6 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +6080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 29.21 0)
+			(at 101.6 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +6089,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 97.79 29.21 0)
+			(at 101.6 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,56 +6110,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 93.98 102.87 0)
+		(lib_id "power:GND")
+		(at 134.62 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b746662e-b086-489c-b1e8-00951d380f8f")
-		(property "Reference" "Q3"
-			(at 100.33 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 100.33 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 99.06 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 93.98 102.87 0)
+		(uuid "c1fa5094-b6bf-4df9-b959-0016ebe94337")
+		(property "Reference" "#PWR015"
+			(at 134.62 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,19 +6128,49 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "8d6aeb20-144c-4d71-bb9a-94aee751d226")
+		(property "Value" "GND"
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "33ba2c6e-22ec-4f49-bd26-c98c2dc26f3b")
+		(property "Footprint" ""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3c92cdf4-227a-4411-9c27-10b5b1c1f0fb")
+			(uuid "098faf92-fecf-40d8-b5d7-797139fc6f5c")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "Q3")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3934,16 +6178,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 88.9 35.56 0)
+		(at 24.13 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c477f655-c54f-4ca6-9c43-6c8053e9ac2f")
-		(property "Reference" "LED_OUT1"
-			(at 89.535 30.48 0)
+		(uuid "c236cb03-0bc0-45a9-9993-6b28ba45edfe")
+		(property "Reference" "BUCK_OUT1"
+			(at 24.765 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,15 +6195,15 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 89.535 33.02 0)
+			(at 24.765 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 88.9 35.56 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 24.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +6212,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 35.56 0)
+			(at 24.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +6221,75 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 88.9 35.56 0)
+			(at 24.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfc2cb13-7f54-4fe2-8378-aef4f60efa59")
+		)
+		(pin "1"
+			(uuid "5df314de-5eb0-4f38-b337-009470888272")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "BUCK_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 92.71 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c477f655-c54f-4ca6-9c43-6c8053e9ac2f")
+		(property "Reference" "LED_OUT1"
+			(at 93.345 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 93.345 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 92.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +6314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 63.5 0)
+		(at 81.28 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4011,7 +6323,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4ba1280-ba51-4b6d-813b-017d8113f525")
 		(property "Reference" "#PWR06"
-			(at 77.47 69.85 0)
+			(at 81.28 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +6332,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +6341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 63.5 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +6350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 63.5 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +6359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 63.5 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +6381,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 59.69 0)
+		(at 81.28 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4077,7 +6389,7 @@
 		(dnp no)
 		(uuid "cc1a9cb8-95c6-47b9-beff-a174acadd41c")
 		(property "Reference" "R_PD1"
-			(at 80.01 58.4199 0)
+			(at 83.82 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,8 +6397,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 80.01 60.9599 0)
+		(property "Value" "10kΩ"
+			(at 83.82 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +6407,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 75.692 59.69 90)
+			(at 79.502 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +6416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 59.69 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +6425,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 59.69 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,33 +6449,101 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 83.82 53.34 90)
+		(lib_id "power:GND")
+		(at 262.89 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d721e23f-c3e2-4cb5-bd94-3b3d983bc778")
-		(property "Reference" "R_G1"
-			(at 83.82 46.99 90)
+		(uuid "d03aa25c-bb7e-477c-bfa0-18e5f85e8f42")
+		(property "Reference" "#PWR023"
+			(at 262.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5109ccb-8141-47fd-a61e-c1dbbfbd9aec")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR023")
+					(unit 1)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 83.82 49.53 90)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d71ed2eb-54df-4c33-a46f-ec18d71adae3")
+		(property "Reference" "R_PD3"
+			(at 191.77 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 191.77 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 83.82 55.118 90)
+			(at 187.452 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,7 +6552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 53.34 0)
+			(at 189.23 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +6561,75 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 53.34 0)
+			(at 189.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13471656-563c-4975-bdbb-da37fd611e17")
+		)
+		(pin "2"
+			(uuid "3162068b-3858-415e-be12-ed0e038c2005")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "R_PD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d721e23f-c3e2-4cb5-bd94-3b3d983bc778")
+		(property "Reference" "R_G1"
+			(at 87.63 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 87.63 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 87.63 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,17 +6653,56 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 100.33 85.09 0)
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 152.4 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de73af37-1093-47d9-a845-28626fc2ae11")
-		(property "Reference" "#PWR014"
-			(at 100.33 88.9 0)
+		(uuid "d9c49ed3-2420-4a3b-af20-9c7f1dedbba4")
+		(property "Reference" "Q2"
+			(at 158.75 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 158.75 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 157.48 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,82 +6710,52 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 100.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "3"
+			(uuid "4546775f-80ca-4b5a-b21b-456db8095b36")
 		)
-		(property "Footprint" ""
-			(at 100.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 100.33 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "7ac78fae-7fef-421e-80f5-780e7151a97b")
 		)
 		(pin "1"
-			(uuid "8fd041bd-ab5d-42d5-a856-b87ce85f34d7")
+			(uuid "bdcdf21c-91e9-4447-93a7-ac1dda26884a")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "#PWR014")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 36.83 36.83 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 146.05 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e0926812-53f2-42f9-940b-ed0d7b0ab724")
-		(property "Reference" "#FLG01"
-			(at 36.83 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 36.83 31.75 0)
+		(uuid "de88f2c8-f2b9-4247-a202-d5a46d7327f2")
+		(property "Reference" "LED_OUT2"
+			(at 146.685 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 36.83 36.83 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 146.685 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 146.05 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +6764,76 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 36.83 0)
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33f9c82d-1731-4e16-91d7-da2c75ee3197")
+		)
+		(pin "1"
+			(uuid "37866e3a-58d2-4cb7-9483-4514e640a1e6")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "LED_OUT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 34.29 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0926812-53f2-42f9-940b-ed0d7b0ab724")
+		(property "Reference" "#FLG01"
+			(at 34.29 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 34.29 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +6842,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 36.83 36.83 0)
+			(at 34.29 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,17 +6863,170 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 49.53 36.83 0)
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 260.35 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ebbb78c6-10a2-4afe-8294-ba477b13dbca")
-		(property "Reference" "#PWR01"
-			(at 49.53 40.64 0)
+		(uuid "e2811db9-eb28-4c90-bf16-46d7493a1864")
+		(property "Reference" "Q4"
+			(at 266.7 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 266.7 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 265.43 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 265.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "df0d83e9-021c-4787-84b6-eacc7aa234fb")
+		)
+		(pin "2"
+			(uuid "11605f96-623c-4a25-a4bb-a5ca03848326")
+		)
+		(pin "1"
+			(uuid "9de79d98-3ae4-4c63-aff8-b08005ff2d3d")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 34.29 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e38ee704-20d9-4c1a-b9f2-a2d053e11191")
+		(property "Reference" "LED_5V1"
+			(at 32.7025 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 32.7025 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "287957a1-898b-4ba2-ae09-b1e1a2d174af")
+		)
+		(pin "2"
+			(uuid "446d4c9a-fafb-43b6-8aee-4e0cc96905e2")
+		)
+		(instances
+			(project ""
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "LED_5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 44.45 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e800fbda-65ba-4420-b1b7-0520b3aa861c")
+		(property "Reference" "#PWR08"
+			(at 44.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +7035,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 49.53 31.75 0)
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +7043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 36.83 0)
+			(at 44.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +7052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 36.83 0)
+			(at 44.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +7061,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 49.53 36.83 0)
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e322e512-949c-44cc-afab-06eb3506b23d")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 46.99 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebbb78c6-10a2-4afe-8294-ba477b13dbca")
+		(property "Reference" "#PWR01"
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 46.99 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,16 +7149,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 128.27 0)
+		(at 240.03 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8ae6a36-ba32-4719-848c-9413ea20bfca")
-		(property "Reference" "#PWR012"
-			(at 92.71 134.62 0)
+		(uuid "ecbd62e6-5cca-40a9-85c8-95aedbbaa5d5")
+		(property "Reference" "#PWR013"
+			(at 233.68 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +7167,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 133.35 0)
+			(at 234.95 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +7176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 128.27 0)
+			(at 240.03 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +7185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 128.27 0)
+			(at 240.03 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +7194,488 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 128.27 0)
+			(at 240.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d63199f-5358-4f1d-b85f-1b60a18d764d")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee0693e9-f806-4f33-bee2-3fcb6c4eaf2c")
+		(property "Reference" "#PWR028"
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2708601-ee8e-4700-a11f-53e38b718edb")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 207.01 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2506140-1b8f-4616-b5a5-b63da8a4bb36")
+		(property "Reference" "Q3"
+			(at 213.36 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 213.36 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 212.09 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 207.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0b8d807a-bb20-4ee2-a625-d661de3254ed")
+		)
+		(pin "2"
+			(uuid "9a89cdd3-9c5f-445d-a99a-1674701921db")
+		)
+		(pin "1"
+			(uuid "4f62882d-5be7-4901-a6e0-15ee451a74a7")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 24.13 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4079597-188d-4e61-b99d-c58f42c5c1b7")
+		(property "Reference" "BUCK_IN1"
+			(at 24.765 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 24.765 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 24.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 24.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4fb9f25f-c949-42f1-8dde-7af45f49de12")
+		)
+		(pin "1"
+			(uuid "b35b7fea-1fad-41ac-a87b-a5401b957d32")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "BUCK_IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4bbe83d-a836-48af-b909-267c1ab9b082")
+		(property "Reference" "#PWR09"
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9170ebd-81cf-4d5d-97da-48f9b983f2e7")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 251.46 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6ee6ea1-54e1-4a52-b6f1-b585a7b6f918")
+		(property "Reference" "C_DEBOUNCE3"
+			(at 254.762 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 254 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3fd3807-306a-4d12-a6a5-b21370b97323")
+		)
+		(pin "2"
+			(uuid "0aafc933-1192-4460-b1f5-2dc01e78853b")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "C_DEBOUNCE3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7912b47-573b-493d-971f-ebcc0144be61")
+		(property "Reference" "R_G2"
+			(at 140.97 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 140.97 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 140.97 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e69ab20a-43fd-4521-8239-23be6aaf097b")
+		)
+		(pin "2"
+			(uuid "8d9f2d11-0a53-4a92-80c4-22621f76249a")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "R_G2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8ae6a36-ba32-4719-848c-9413ea20bfca")
+		(property "Reference" "#PWR012"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
