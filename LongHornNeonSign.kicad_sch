@@ -5,6 +5,186 @@
 	(uuid "f5140a03-2151-4444-9841-b9751d5275da")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Barrel_Jack"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1045,7 +1225,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5822"
+		(symbol "Diode:SS34"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1064,7 +1244,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5822"
+			(property "Value" "SS34"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1072,7 +1252,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1081,7 +1261,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1090,7 +1270,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(property "Description" "40V 3A Schottky Diode, SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1108,7 +1288,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?201AD*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1117,7 +1297,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5822_0_1"
+			(symbol "SS34_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -1155,7 +1335,7 @@
 					)
 				)
 			)
-			(symbol "1N5822_1_1"
+			(symbol "SS34_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2146,7 +2326,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IRLZ44N"
+		(symbol "Transistor_FET:AO3400A"
 			(pin_names
 				(hide yes)
 			)
@@ -2162,7 +2342,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IRLZ44N"
+			(property "Value" "AO3400A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2171,7 +2351,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2182,7 +2362,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -2192,7 +2372,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2201,7 +2381,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2210,7 +2390,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2219,7 +2399,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IRLZ44N_0_1"
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2386,7 +2566,7 @@
 					)
 				)
 			)
-			(symbol "IRLZ44N_1_1"
+			(symbol "AO3400A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2415,7 +2595,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2433,7 +2613,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3022,7 +3202,7 @@
 		(at 34.29 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79fa335d-3035-4885-b345-9f09f8f216dc")
+		(uuid "66bfc474-555b-4cdb-9bbd-e0a346347d78")
 	)
 	(junction
 		(at 83.82 101.6)
@@ -3055,16 +3235,10 @@
 		(uuid "908bca5d-6a3b-4c4d-ad2a-2a8b70687aee")
 	)
 	(junction
-		(at 132.08 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ef5e3da-8cea-4f81-9d34-0d322f6e2797")
-	)
-	(junction
 		(at 34.29 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f32c634d-b5dc-43f0-87ac-b7a2c8fd2d9b")
+		(uuid "e1923bf3-745f-4232-a527-976dbf8552c5")
 	)
 	(no_connect
 		(at 204.47 110.49)
@@ -3130,23 +3304,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 163.83 106.68)
+			(xy 95.25 36.83) (xy 101.6 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01013c06-a295-493d-8ee8-305a4c967cde")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 163.83 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "026c8e40-5708-4658-bf41-c4c35d2a976b")
-	)
-	(wire
-		(pts
-			(xy 27.94 27.94) (xy 34.29 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0717fdc4-a7ea-45c4-a9be-a4a17ba44268")
 	)
 	(wire
 		(pts
@@ -3220,16 +3394,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 132.08 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15548b82-6248-4e29-87db-2319e0491c58")
-	)
-	(wire
-		(pts
 			(xy 127 106.68) (xy 129.54 106.68)
 		)
 		(stroke
@@ -3250,7 +3414,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 29.21) (xy 101.6 35.56)
+			(xy 101.6 29.21) (xy 101.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3460,16 +3624,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 132.08 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d3d99a-cf09-494e-9354-73703b3092ad")
-	)
-	(wire
-		(pts
 			(xy 189.23 53.34) (xy 191.77 53.34)
 		)
 		(stroke
@@ -3500,6 +3654,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 30.48) (xy 29.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f70ece0-f481-4edb-8840-c413150512be")
+	)
+	(wire
+		(pts
 			(xy 129.54 101.6) (xy 129.54 106.68)
 		)
 		(stroke
@@ -3517,16 +3681,6 @@
 			(type default)
 		)
 		(uuid "580a4ce5-3464-4d5b-930d-766526ebb3cd")
-	)
-	(wire
-		(pts
-			(xy 101.6 35.56) (xy 97.79 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "581fb613-9b38-4442-9ab0-b18b79e81bfa")
 	)
 	(wire
 		(pts
@@ -3560,6 +3714,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 27.94) (xy 29.21 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cedb593-9e33-407f-9d8c-dc0f38968e97")
+	)
+	(wire
+		(pts
 			(xy 17.78 86.36) (xy 17.78 87.63)
 		)
 		(stroke
@@ -3570,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 101.6 48.26)
+			(xy 101.6 39.37) (xy 101.6 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3637,16 +3801,6 @@
 			(type default)
 		)
 		(uuid "8490e8cb-0bbb-4a6f-bbe3-b8d6bc54eca6")
-	)
-	(wire
-		(pts
-			(xy 101.6 38.1) (xy 97.79 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a03bb4c-8989-4ee5-ada0-540bd142c89c")
 	)
 	(wire
 		(pts
@@ -3810,6 +3964,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 39.37) (xy 101.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3129d90-03f8-4af0-b0b4-66ecc0b28935")
+	)
+	(wire
+		(pts
 			(xy 251.46 130.81) (xy 262.89 130.81)
 		)
 		(stroke
@@ -3870,6 +4034,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 30.48) (xy 29.21 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc27048b-90b2-49c0-9b11-165f8458e2f8")
+	)
+	(wire
+		(pts
 			(xy 102.87 113.03) (xy 102.87 111.76)
 		)
 		(stroke
@@ -3907,16 +4081,6 @@
 			(type default)
 		)
 		(uuid "d0476b5a-44ed-4d49-beac-949f56cf87d8")
-	)
-	(wire
-		(pts
-			(xy 132.08 96.52) (xy 134.62 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ac3cc2-43d8-4f3a-b5e6-c1ac04bdb797")
 	)
 	(wire
 		(pts
@@ -4030,6 +4194,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 27.94) (xy 29.21 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2f42a6-a889-411d-a02b-89e87b80e240")
+	)
+	(wire
+		(pts
 			(xy 116.84 106.68) (xy 119.38 106.68)
 		)
 		(stroke
@@ -4037,16 +4211,6 @@
 			(type default)
 		)
 		(uuid "fb5bf2ab-5921-4950-b085-b59ab1210c7b")
-	)
-	(wire
-		(pts
-			(xy 27.94 30.48) (xy 34.29 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffedd4dc-1a1c-49c3-87cb-bdcfc90c3d2e")
 	)
 	(label "BTN_TOGGLE"
 		(at 262.89 85.09 0)
@@ -4484,7 +4648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 80.01 0)
 			(effects
 				(font
@@ -4597,76 +4761,6 @@
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08dda0a8-c275-46a5-83ff-61b943fa9d33")
-		(property "Reference" "C2"
-			(at 137.16 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 137.16 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af6b9190-59d5-480e-901a-de44c46d777d")
-		)
-		(pin "2"
-			(uuid "0b0203a5-3abe-4f6e-a58b-03c6bcdb4e62")
-		)
-		(instances
-			(project ""
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4896,7 +4990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 22.86 66.548 90)
 			(effects
 				(font
@@ -5166,7 +5260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 246.38 92.71 0)
 			(effects
 				(font
@@ -5236,7 +5330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 246.38 115.57 0)
 			(effects
 				(font
@@ -5547,72 +5641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26dba637-ec98-480a-85fa-0fd78ce03167")
-		(property "Reference" "#PWR035"
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a51b36f0-fcfe-4d30-9927-94268985f610")
-		)
-		(instances
-			(project "LongHornNeonSign"
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 254 35.56 0)
 		(unit 1)
@@ -5638,7 +5666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 254 35.56 0)
 			(effects
 				(font
@@ -5706,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 200.66 35.56 0)
 			(effects
 				(font
@@ -5840,7 +5868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 123.19 106.68 0)
 			(effects
 				(font
@@ -5975,7 +6003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 195.58 55.118 90)
 			(effects
 				(font
@@ -6018,74 +6046,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 22.86 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "339519e9-b3e2-4081-b8f6-3740f2e8e7f6")
-		(property "Reference" "PWR_IN1"
-			(at 23.495 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 23.495 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 22.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 22.86 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b52ccfa1-ff4d-4ad2-9a02-aaca0d49a75b")
-		)
-		(pin "1"
-			(uuid "dc3b60dc-cc7c-4fe7-9327-43855809316c")
-		)
-		(instances
-			(project "LongHornNeonSign"
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "PWR_IN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 52.07 92.71 0)
 		(unit 1)
@@ -6111,7 +6071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 92.71 0)
 			(effects
 				(font
@@ -6323,7 +6283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 84.7852 120.65 0)
 			(effects
 				(font
@@ -6342,6 +6302,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 83.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C47118"
 			(at 83.82 116.84 0)
 			(effects
 				(font
@@ -6457,7 +6426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 21.59 89.408 90)
 			(effects
 				(font
@@ -6725,7 +6694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 22.86 104.648 90)
 			(effects
 				(font
@@ -6794,7 +6763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 240.792 59.69 90)
 			(effects
 				(font
@@ -6862,7 +6831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 44.45 94.488 90)
 			(effects
 				(font
@@ -7265,7 +7234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.47 86.36 0)
 			(effects
 				(font
@@ -7302,6 +7271,76 @@
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS34")
+		(at 116.84 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f667550-9f77-4754-bd45-19e3405f9649")
+		(property "Reference" "D2"
+			(at 119.38 112.7124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 119.38 115.2524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 112.395 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01b5f08d-a991-4796-a3c4-4997a20a3241")
+		)
+		(pin "2"
+			(uuid "e53f4903-747c-4555-82c1-c8260d4fc1df")
+		)
+		(instances
+			(project ""
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7400,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 82.55 0)
 			(effects
 				(font
@@ -7535,7 +7574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 21.59 55.118 90)
 			(effects
 				(font
@@ -7578,6 +7617,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 90.17 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66065976-23e2-468a-a8a7-dab2c3d2b1f3")
+		(property "Reference" "LED_OUT1"
+			(at 90.805 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 90.805 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b4db031-d6c9-47e7-aedc-0cb8a34a6c9f")
+		)
+		(pin "1"
+			(uuid "c02b8b8e-5add-4a3d-add9-9e76489c014f")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "LED_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 59.69 0)
 		(unit 1)
@@ -7604,7 +7711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.842 59.69 90)
 			(effects
 				(font
@@ -7739,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 29.21 76.2 0)
 			(effects
 				(font
@@ -8083,7 +8190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 243.84 129.032 90)
 			(effects
 				(font
@@ -8219,7 +8326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 243.84 83.312 90)
 			(effects
 				(font
@@ -8287,7 +8394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 44.45 69.088 90)
 			(effects
 				(font
@@ -8356,7 +8463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 243.84 106.172 90)
 			(effects
 				(font
@@ -8393,6 +8500,82 @@
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
 					(reference "R_PD5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 207.01 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4fceb4-2acc-4669-b81c-5cdae6010dbe")
+		(property "Reference" "Q3"
+			(at 213.36 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 213.36 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 212.09 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 207.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0591bc1f-c37c-440a-b4ab-3be4bafa869a")
+		)
+		(pin "2"
+			(uuid "88146082-c5cd-4f36-ad33-b080108c7eb9")
+		)
+		(pin "1"
+			(uuid "30d46e3a-9dc7-4735-b4d0-f06ebfb3844e")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8711,7 +8894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 248.92 55.118 90)
 			(effects
 				(font
@@ -8748,82 +8931,6 @@
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
 					(reference "R_G4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 99.06 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "969578bd-5d09-4221-9743-9f0c12249bf0")
-		(property "Reference" "Q1"
-			(at 105.41 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 105.41 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 104.14 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 104.14 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 99.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1ee31bcc-34b0-4bcb-bce0-00f3041dc6a9")
-		)
-		(pin "2"
-			(uuid "d72ae106-dca5-41f2-986f-98b9bf08dd4c")
-		)
-		(pin "1"
-			(uuid "5f2d2de4-1b96-4a60-ba5f-82de2dcf0db4")
-		)
-		(instances
-			(project "LongHornNeonSign"
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9054,7 +9161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 29.21 53.34 0)
 			(effects
 				(font
@@ -9131,7 +9238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 29.21 87.63 0)
 			(effects
 				(font
@@ -9275,7 +9382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 105.41 0)
 			(effects
 				(font
@@ -9411,7 +9518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 130.5052 118.11 0)
 			(effects
 				(font
@@ -9479,7 +9586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 44.45 81.788 90)
 			(effects
 				(font
@@ -9549,7 +9656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 246.38 138.43 0)
 			(effects
 				(font
@@ -9586,6 +9693,82 @@
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 99.06 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b439bf36-7d80-4c73-ad73-a9b3d40b60df")
+		(property "Reference" "Q1"
+			(at 105.41 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 105.41 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 104.14 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3c456069-b11d-4a7e-b311-4b5a0c1a50dd")
+		)
+		(pin "2"
+			(uuid "7e173766-c6af-400f-b9ee-3e40ba844437")
+		)
+		(pin "1"
+			(uuid "aec32ae6-8b30-4007-9c59-511e057b0e8e")
+		)
+		(instances
+			(project ""
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9683,7 +9866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 21.59 77.978 90)
 			(effects
 				(font
@@ -9793,33 +9976,56 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 92.71 35.56 0)
+		(lib_id "Transistor_FET:AO3400A")
+		(at 152.4 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c477f655-c54f-4ca6-9c43-6c8053e9ac2f")
-		(property "Reference" "LED_OUT1"
-			(at 93.345 30.48 0)
+		(uuid "c2821c5a-cd39-4af5-9aa6-65977a19682a")
+		(property "Reference" "Q2"
+			(at 158.75 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 93.345 33.02 0)
+		(property "Value" "AO3400A"
+			(at 158.75 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 92.71 35.56 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 157.48 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,34 +10033,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 92.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 92.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "bf96973a-10fa-44e7-81d3-5a22951b25f4")
 		)
 		(pin "2"
-			(uuid "7f1d7a90-9962-4b1b-8581-fb0ede2e743f")
+			(uuid "fa0fab9b-f153-44a8-ab28-4e2921157e8b")
 		)
 		(pin "1"
-			(uuid "a30566e3-2c83-47cb-8c27-c96f3ce8bce0")
+			(uuid "16b01a45-4995-4317-8db4-e45bb0eaf882")
 		)
 		(instances
-			(project ""
+			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "LED_OUT1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9953,7 +10144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -10031,7 +10222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 79.502 59.69 90)
 			(effects
 				(font
@@ -10208,6 +10399,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 260.35 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d44d79a3-b57c-4711-a910-69401f00daeb")
+		(property "Reference" "Q4"
+			(at 266.7 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 266.7 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 265.43 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 265.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2c1d739e-d252-430e-9ef1-21718b4af5f9")
+		)
+		(pin "2"
+			(uuid "0451f410-7224-4e6c-963d-22c21077fc97")
+		)
+		(pin "1"
+			(uuid "a1685c96-24db-4882-8efc-268ccd3c0c3a")
+		)
+		(instances
+			(project "LongHornNeonSign"
+				(path "/f5140a03-2151-4444-9841-b9751d5275da"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 189.23 59.69 0)
 		(unit 1)
@@ -10234,7 +10501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 187.452 59.69 90)
 			(effects
 				(font
@@ -10302,7 +10569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.63 55.118 90)
 			(effects
 				(font
@@ -10345,56 +10612,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 152.4 53.34 0)
+		(lib_id "Connector:Barrel_Jack")
+		(at 21.59 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9c49ed3-2420-4a3b-af20-9c7f1dedbba4")
-		(property "Reference" "Q2"
-			(at 158.75 52.0699 0)
+		(uuid "d7ff94c5-6548-40b5-9d46-25b861931f3a")
+		(property "Reference" "J1"
+			(at 21.59 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IRLZ44N"
-			(at 158.75 54.6099 0)
+		(property "Value" "Barrel_Jack"
+			(at 21.59 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 157.48 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 152.4 53.34 0)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
+			(at 22.86 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,19 +10646,34 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "4546775f-80ca-4b5a-b21b-456db8095b36")
+		(property "Datasheet" "~"
+			(at 22.86 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "7ac78fae-7fef-421e-80f5-780e7151a97b")
+		(property "Description" "DC Barrel Jack"
+			(at 21.59 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "bdcdf21c-91e9-4447-93a7-ac1dda26884a")
+			(uuid "1b6ff969-9e8c-4d5d-94e1-d1916c5d146b")
+		)
+		(pin "2"
+			(uuid "edc6021c-632b-4634-9f99-d063817cab37")
 		)
 		(instances
 			(project "LongHornNeonSign"
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "Q2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10446,7 +10705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 146.05 35.56 0)
 			(effects
 				(font
@@ -10555,82 +10814,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 260.35 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2811db9-eb28-4c90-bf16-46d7493a1864")
-		(property "Reference" "Q4"
-			(at 266.7 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 266.7 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 265.43 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 265.43 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 260.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "df0d83e9-021c-4787-84b6-eacc7aa234fb")
-		)
-		(pin "2"
-			(uuid "11605f96-623c-4a25-a4bb-a5ca03848326")
-		)
-		(pin "1"
-			(uuid "9de79d98-3ae4-4c63-aff8-b08005ff2d3d")
-		)
-		(instances
-			(project "LongHornNeonSign"
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 30.48 64.77 0)
 		(unit 1)
@@ -10656,7 +10839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 30.48 64.77 0)
 			(effects
 				(font
@@ -10702,76 +10885,6 @@
 			(project ""
 				(path "/f5140a03-2151-4444-9841-b9751d5275da"
 					(reference "LED_5V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5822")
-		(at 116.84 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e990cff7-9a06-4c4b-a20b-ceeac57ae06f")
-		(property "Reference" "D1"
-			(at 119.38 112.7124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5822"
-			(at 119.38 115.2524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 112.395 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
-			(at 116.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
-			(at 116.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b97cff3-2fa3-4cb2-97fa-2e44faea910b")
-		)
-		(pin "1"
-			(uuid "60f21e1f-a94e-4fd1-b217-a68ceef9e4b0")
-		)
-		(instances
-			(project ""
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10824,6 +10937,15 @@
 			)
 		)
 		(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116713"
 			(at 102.87 104.14 0)
 			(effects
 				(font
@@ -11081,7 +11203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 30.48 102.87 0)
 			(effects
 				(font
@@ -11200,82 +11322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 207.01 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2506140-1b8f-4616-b5a5-b63da8a4bb36")
-		(property "Reference" "Q3"
-			(at 213.36 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 213.36 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 212.09 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 212.09 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 207.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0b8d807a-bb20-4ee2-a625-d661de3254ed")
-		)
-		(pin "2"
-			(uuid "9a89cdd3-9c5f-445d-a99a-1674701921db")
-		)
-		(pin "1"
-			(uuid "4f62882d-5be7-4901-a6e0-15ee451a74a7")
-		)
-		(instances
-			(project "LongHornNeonSign"
-				(path "/f5140a03-2151-4444-9841-b9751d5275da"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 44.45 54.61 90)
 		(unit 1)
@@ -11301,7 +11347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 44.45 56.388 90)
 			(effects
 				(font
@@ -11370,7 +11416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.46 128.27 0)
 			(effects
 				(font
@@ -11505,7 +11551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 140.97 55.118 90)
 			(effects
 				(font
@@ -11640,7 +11686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 54.61 0)
 			(effects
 				(font
