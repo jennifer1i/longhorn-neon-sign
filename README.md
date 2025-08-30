@@ -1,2 +1,7 @@
-<img width="905" alt="image" src="https://github.com/user-attachments/assets/33ce007e-42f1-4b34-b197-a4111d7fa0fc" />
-<img width="666" alt="image" src="https://github.com/user-attachments/assets/7d86d4b7-2e64-4f66-a745-80fb3b89f979" />
+Summer 2025 LED Neon Sign Project
+
+Objective: To develop more aesthetic and clean LED Neon Signs while prioritizing safety.
+
+Guide (WIP): http://docs.google.com/document/d/11dhoyvGAcYTdkn-zyGXZOYCT98Kuj462Q0lVpynhNgw/edit?tab=t.0
+
+Documentation (WIP): https://docs.google.com/document/d/1wDvMH2lichNVQAV6tBaL_R2XnR1E-B8Rkip-_IEDYMg/edit?usp=sharing
