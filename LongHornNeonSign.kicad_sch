@@ -9832,7 +9832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 130.5052 118.11 0)
 			(effects
 				(font
@@ -9859,7 +9859,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C976031"
+		(property "LCSC" "C2827940"
 			(at 129.54 114.3 0)
 			(effects
 				(font
@@ -10725,7 +10725,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d002656b-28bc-40a8-9913-0c6f61d3e239")
 		(property "Reference" "#PWR031"
 			(at 85.09 101.6 0)
@@ -10737,7 +10736,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 77.47 101.5999 90)
+			(at 77.724 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
