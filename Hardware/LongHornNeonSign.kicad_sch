@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "f5140a03-2151-4444-9841-b9751d5275da")
 	(paper "A4")
+	(title_block
+		(title "Neon Sign PCB")
+		(rev "RevB")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names
